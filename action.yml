@@ -1,6 +1,9 @@
 name: "LICENSE Existence Check"
 description: Checks for LICENSE file existence
 author: Gary-H9
+branding:
+  icon: 'file-text'
+  color: 'white'
 
 on: [push, pull_request]
 
