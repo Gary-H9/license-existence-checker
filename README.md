@@ -10,4 +10,4 @@ Conditions:
 - the Action does not care about the contents of the LICENSE file, as such an empty file called LICENSE will result in the Action running successfully.
 
 ## Future Features ✨
-in the event of a failure the application will create a Pull Request or Issue on the repository it is ran on, requesting that the LICENSE file be created.
+In the event of a failure the Action will create a Pull Request or Issue on the repository it is ran on, requesting that the LICENSE file be created.
