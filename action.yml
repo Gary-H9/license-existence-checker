@@ -1,4 +1,4 @@
-name: "LICENSE Existence Check"
+name: "LICENSE Existence Check TEST TEST TEST"
 
 on: [push, pull_request]
 
