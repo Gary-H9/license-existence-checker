@@ -5,9 +5,9 @@ branding:
   icon: 'file-text'
   color: 'white'
 
-inputs:
+# inputs:
 
-outputs:
+# outputs:
 
 runs:
   using: 'docker'
