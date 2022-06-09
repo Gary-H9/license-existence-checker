@@ -1,6 +1,7 @@
 name: "LICENSE Existence Check"
 description: Checks for LICENSE file existence
 author: Gary-H9
+
 on: [push, pull_request]
 
 jobs:
