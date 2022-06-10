@@ -1,4 +1,4 @@
-name: "LICENSE Existence Check"
+name: "LICENSE Existence Checker 📝"
 
 on: [push, pull_request]
 
@@ -11,4 +11,4 @@ jobs:
         uses: actions/checkout@v1
 
       - name: Check file existence
-        uses: ./  
+        uses: ./
