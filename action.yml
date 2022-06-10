@@ -5,21 +5,6 @@ branding:
   icon: 'file-text'
   color: 'white'
 
-# inputs:
-
-# outputs:
-
 runs:
-  using: 'docker'
-  image: 'Dockerfile'
-
-# jobs:
-#   existence:
-#     runs-on: ubuntu-latest
-#     steps:
-#       - name: Checkout code
-#         uses: actions/checkout@v1
-
-#       - name: Check file existence
-#         run: test -f LICENSE && echo "LICENSE exists."
-  
+  using: "docker"
+  image: "Dockerfile"

@@ -4,11 +4,11 @@ on: [push, pull_request]
 
 jobs:
   existence:
+    name: LICENSE Existence Checker
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
         uses: actions/checkout@v1
 
       - name: Check file existence
-        run: test -f LICENSE && echo "LICENSE exists."
-  
+      - uses: ./  
