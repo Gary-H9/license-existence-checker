@@ -1,5 +1,7 @@
 # License Existence Checker (LEC) 📝
 
+[![GitHub Marketplace](https://img.shields.io/badge/Marketplace-License%20Existence%20Checker-blue.svg?colorA=24292e&colorB=0366d6&style=flat&longCache=true&logo=github)](https://github.com/marketplace/actions/license-existence-checker)
+
 License Existence Checker is a GitHub Action with a simple purpose - to check for the _existence_ of a LICENSE file.
 
 This is particularly useful in large organisations, with many repositories which should all adhere to a common licensing standard.
