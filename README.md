@@ -8,6 +8,7 @@ This is particularly useful in large organisations, with many repositories which
 
 - the Action only looks in the root of the repository and checks for the existence of the LICENSE file there.
 - the Action does not care about the contents of the LICENSE file, as such an empty file called LICENSE will result in the Action running successfully.
+- the Action is case sensitive and only tests for "LICENSE".
 
 ### Prerequisites
 
@@ -21,7 +22,7 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v3
       - name: LICENSE Existence Checker
-        uses: Gary-H9/license-existence-checker@v1.1.4
+        uses: Gary-H9/license-existence-checker@v1.0.0
 ```
 
 ## Future Features ✨
